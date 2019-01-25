@@ -58,13 +58,10 @@
 		6730FA7621FA98D80033DB64 /* ProgrammaticUIProject */ = {
 			isa = PBXGroup;
 			children = (
-				6730FA7721FA98D80033DB64 /* AppDelegate.swift */,
-				6730FA9021FA99DB0033DB64 /* DetailViewController.swift */,
+				6730FA9321FA9BCC0033DB64 /* Support File */,
+				6730FA9221FA9BB40033DB64 /* Controllers */,
 				6730FA8D21FA996E0033DB64 /* UIView */,
-				6730FA7E21FA98D90033DB64 /* Assets.xcassets */,
-				6730FA8021FA98D90033DB64 /* LaunchScreen.storyboard */,
 				6730FA8321FA98D90033DB64 /* Info.plist */,
-				6730FA8E21FA99960033DB64 /* FirstViewController.swift */,
 			);
 			path = ProgrammaticUIProject;
 			sourceTree = "<group>";
@@ -76,6 +73,25 @@
 				6730FA8B21FA99300033DB64 /* DetailView.swift */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		6730FA9221FA9BB40033DB64 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6730FA9021FA99DB0033DB64 /* DetailViewController.swift */,
+				6730FA8E21FA99960033DB64 /* FirstViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6730FA9321FA9BCC0033DB64 /* Support File */ = {
+			isa = PBXGroup;
+			children = (
+				6730FA7721FA98D80033DB64 /* AppDelegate.swift */,
+				6730FA7E21FA98D90033DB64 /* Assets.xcassets */,
+				6730FA8021FA98D90033DB64 /* LaunchScreen.storyboard */,
+			);
+			path = "Support File";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
